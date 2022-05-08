@@ -1,6 +1,12 @@
 import ui, { a, b } from "./module2.mjs";
-console.log(ui);
-console.log(a);
+const value1 = Symbol('hello');
+const value2 = Symbol('hello');
+// console.log(value1);
+// console.log(value2);
 
-console.log(b);
-p10 
+const student ={
+    firstName:'Prince',
+    lastName:null,
+    class:10
+}
+console.log(student)
